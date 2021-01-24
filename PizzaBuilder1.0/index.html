@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pizza Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="pizzaBuilder.js"></script>
+</head>
+
+<body>
+    <section class="pizza-wrapper">
+        <div class="pizza">
+            <div id="pizza" class="pizza-main"></div>
+            <div class="pizza-corner"></div>
+            <div class="products"></div>
+        </div>
+    </section>
+
+    <section class="menu-wrapper">
+        <div class="menu">
+            <div class="menu-title">
+                <h1>Menu</h1>
+            </div>
+
+            <div class="menu-main">
+
+                <div class="product-count">
+                    <ul>
+                        <li id="1">0</li>
+                        <li id="2">0</li>
+                        <li id="3">0</li>
+                        <li id="4">0</li>
+                        <li id="5">0</li>
+                        <li id="6">0</li>
+                    </ul>
+                </div>
+
+                <div class="product-list">
+                    <ul>
+                        <li>Salami</li>
+                        <li>Sausage</li>
+                        <li>Olive</li>
+                        <li>Cheese</li>
+                        <li>Cucumber</li>
+                        <li>Tomatoe</li>
+                    </ul>
+                </div>
+
+                <div class="product-btn">
+                    <button onclick="addSalamiHandler()">Add</button>
+                    <button onclick="addSausageHandler()">Add</button>
+                    <button onclick="addOliveHandler()">Add</button>
+                    <button onclick="addCheeseHandler()">Add</button>
+                    <button onclick="addCucumberHandler()">Add</button>
+                    <button onclick="addTomatoHandler()">Add</button>
+                </div>
+
+                <div class="product-price">
+                    <ul>
+                        <li>$0.50</li>
+                        <li>$1.00</li>
+                        <li>$0.30</li>
+                        <li>$0.70</li>
+                        <li>$0.10</li>
+                        <li>$0.15</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div id="total" class="menu-total">Total:</div>
+
+        </div>
+    </section>
+</body>
+
+</html>
