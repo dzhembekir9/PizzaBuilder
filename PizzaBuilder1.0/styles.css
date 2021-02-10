@@ -65,18 +65,25 @@
     font-size: 50px;
 }
 
-.menu .menu-main .product-btn {
+.menu .menu-main button {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 37px;
+    padding: 6px 15px 6px 15px;
+}
+
+.menu .menu-main .add {
+    position: absolute;
+    right: 180px;
+    top: 260px;
+}
+
+.menu .menu-main .remove {
     position: absolute;
     right: 110px;
     top: 260px;
 }
 
-.menu .menu-main .product-btn button {
-    display: block;
-    margin-bottom: 20px;
-    font-size: 37px;
-    padding: 6px 10px 6px 10px;
-}
 
 .menu .menu-main .product-price ul {
     list-style-type: none;
